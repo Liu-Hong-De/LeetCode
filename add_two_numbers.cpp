@@ -21,40 +21,36 @@ public:
         ListNode* front = l1;
         bool carry = false;
         
+//        相對應位置相加 
         while(l1->next != 0 && l2->next != 0) {
             l1->val += l2->val;
-\
             l1 = l1->next;
             l2 = l2->next;
-        }
-        
+        } 
         l1->val += l2->val;
         
+//        無相對應位置合併 
         if(l2->next != 0) {
             l1->next = l2->next;
         }
         
-        while(front->next != 0) {
+//        處理進位 
+        while(front != 0) {
             if(carry) {
                 front->val += 1;
                 carry = false;
             }
             if(front->val > 9) {
                 front->val -= 10;
-                carry = true;
+                if(front->next == 0) {
+                    front->next = new ListNode(1);
+                }
+                else {
+                    carry = true;
+                }
             }
             front = front->next;
         }
-        
-        if(carry) {
-            front->val += 1;
-            carry = false;
-        }
-        if(front->val > 9) {
-            front->val -= 10;
-            front->next = new ListNode(1);
-        }
-        
         return ans;
     }
 };
