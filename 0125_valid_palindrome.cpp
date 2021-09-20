@@ -7,7 +7,7 @@ class Solution {
 public:
     bool isPalindrome(string s) {
         int i = 0;
-        int j = s.length()-1;
+        int j = s.length() - 1;
         
         while(i < j) {
             if(!((48 <= s[i] && s[i] <= 57) || (65 <= s[i] && s[i] <= 90) || (97 <= s[i] && s[i] <= 122))) {
