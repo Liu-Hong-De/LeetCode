@@ -1,5 +1,11 @@
-Runtime: 68 ms, faster than 58.00% of C++ online submissions for 4Sum.
-Memory Usage: 13.2 MB, less than 42.67% of C++ online submissions for 4Sum.
+/* Given an array nums of n integers, return an array of all the unique quadruplets [nums[a], nums[b], nums[c], nums[d]] such that:
+	0 <= a, b, c, d < n
+	a, b, c, and d are distinct.
+	nums[a] + nums[b] + nums[c] + nums[d] == target
+You may return the answer in any order. */
+
+// Runtime: 68 ms, faster than 58.00% of C++ online submissions for 4Sum.
+// Memory Usage: 13.2 MB, less than 42.67% of C++ online submissions for 4Sum.
 
 class Solution {
 public:
