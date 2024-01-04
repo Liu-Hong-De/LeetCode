@@ -1,6 +1,7 @@
 /* Given a non-negative integer x, compute and return the square root of x.
 Since the return type is an integer, the decimal digits are truncated, and only the integer part of the result is returned. */
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Sqrt(x).
 // Memory Usage: 5.8 MB, less than 81.91% of C++ online submissions for Sqrt(x).
 
@@ -15,7 +16,7 @@ public:
             return 0;
         }
         
-//        §Q¥Îbinary searcuªº·§©À¥h¹Gªñµ²ªG 
+//        Â§QÂ¥ÃŽbinary searcuÂªÂºÂ·Â§Â©Ã€Â¥hÂ¹GÂªÃ±ÂµÂ²ÂªG 
         while(1) {
             if(x / mid > mid) {
                 low = mid;
