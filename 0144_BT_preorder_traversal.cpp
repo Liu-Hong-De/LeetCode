@@ -1,5 +1,6 @@
 // Given the root of a binary tree, return the preorder traversal of its nodes' values.
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Binary Tree Preorder Traversal.
 // Memory Usage: 8.5 MB, less than 45.94% of C++ online submissions for Binary Tree Preorder Traversal.
 
