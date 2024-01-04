@@ -1,15 +1,16 @@
 // Given two binary strings a and b, return their sum as a binary string
 
+// Difficulty: Easy
 // Runtime: 4 ms, faster than 67.09% of C++ online submissions for Add Binary.
 // Memory Usage: 6.3 MB, less than 82.66% of C++ online submissions for Add Binary.
 
 class Solution {
 public:
     string addBinary(string a, string b) {
-        bool carry = false;		// §PÂ_¬O§_ºÉ¬° 
+        bool carry = false;		// åˆ¤æ–·æ˜¯å¦ç›¡ç‚º 
         string temp = "";
         
-//        ¥Oa¬°¦r¦êªø«×¸ûªøªº¨º­Ó¥H¤è«K«áÄò³B²z 
+//        ä»¤aç‚ºå­—ä¸²é•·åº¦è¼ƒé•·çš„é‚£å€‹ä»¥æ–¹ä¾¿å¾ŒçºŒè™•ç† 
         if(a.length() < b.length()) {
             temp = a;
             a = b;
@@ -18,7 +19,7 @@ public:
         
         int al = a.length()-1, bl = b.length()-1;
         
-//        ¥ı±Nªø«×¬Û¦Pªº³¡¤À¬Û¥[ 
+//        å…ˆå°‡é•·åº¦ç›¸åŒçš„éƒ¨åˆ†ç›¸åŠ  
         while(al >= 0 && bl >= 0) {
             if(a[al] == '0' && b[bl] == '0') {
                 if(carry) {
@@ -45,7 +46,7 @@ public:
             bl--;
         }
         
-//        ¦A±Na³Ñ¾lªº³¡¤À°µ¶i¦ì³B²z 
+//        å†å°‡aå‰©é¤˜çš„éƒ¨åˆ†åšé€²ä½è™•ç† 
         while(al >= 0) {
             if(carry) {
                 if(a[al] == '1') {
@@ -59,7 +60,7 @@ public:
             al--;
         }
         
-//        ³Ì«e­±¬°¨â­Ó1®É»İ¦A¥[¤@¦ì 
+//        æœ€å‰é¢ç‚ºå…©å€‹1æ™‚éœ€å†åŠ ä¸€ä½ 
         if(carry) {
             a = '1' + a;
         }
