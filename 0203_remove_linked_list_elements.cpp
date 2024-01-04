@@ -1,6 +1,7 @@
 /* Given the head of a linked list and an integer val,
 remove all the nodes of the linked list that has Node.val == val, and return the new head. */
 
+// Difficulty: Easy
 // Runtime: 20 ms, faster than 83.09% of C++ online submissions for Remove Linked List Elements.
 // Memory Usage: 15 MB, less than 78.95% of C++ online submissions for Remove Linked List Elements.
 
