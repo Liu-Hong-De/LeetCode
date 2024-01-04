@@ -8,7 +8,7 @@ For example, truncate(8.345) = 8 and truncate(-2.7335) = -2.
 Note: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [-23^1, 2^31 - 1]. 
 For this problem, assume that your function returns 2^31 - 1 when the division result overflows. */
 
-
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Divide Two Integers.
 // Memory Usage: 5.8 MB, less than 76.34% of C++ online submissions for Divide Two Integers.
 
