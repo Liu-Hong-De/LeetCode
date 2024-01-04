@@ -1,6 +1,7 @@
 /* Given a string text, you want to use the characters of text to form as many instances of the word "balloon" as possible.
 You can use each character in text at most once. Return the maximum number of instances that can be formed. */
 
+// Difficulty: Easy
 // Runtime: 3 ms, faster than 79.33% of C++ online submissions for Maximum Number of Balloons.
 // Memory Usage: 6.5 MB, less than 85.71% of C++ online submissions for Maximum Number of Balloons.
 
