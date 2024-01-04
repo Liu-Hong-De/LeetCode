@@ -1,5 +1,6 @@
 // Given the head of a linked list, remove the nth node from the end of the list and return its head.
 
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Remove Nth Node From End of List.
 // Memory Usage: 10.7 MB, less than 73.51% of C++ online submissions for Remove Nth Node From End of List.
 
@@ -19,21 +20,21 @@ public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         ListNode* temp = head;
         int l = length(temp)-1;
-//        ¥h°£°ß¤@ªºnode 
+//        åŽ»é™¤å”¯ä¸€çš„node 
         if(l == 0) {
             head = NULL;
         }
-//        ¥h°£²Ä¤@­Ónode 
+//        åŽ»é™¤ç¬¬ä¸€å€‹node 
         else if(l+1 == n) {
             head = head->next;
         }
         else {
-//        	§ä¨ì­n³Q¥h°£ªºnode¦ì¸m 
+//        	æ‰¾åˆ°è¦è¢«åŽ»é™¤çš„nodeä½ç½® 
             while(l > n) {
                 temp = temp->next;
                 l--;
             }
-//            ·í­n³Q¥h°£ªºnode¬°³Ì«á¤@­Ó®É¡A¥O¨ä¬°null 
+//            ç•¶è¦è¢«åŽ»é™¤çš„nodeç‚ºæœ€å¾Œä¸€å€‹æ™‚ï¼Œä»¤å…¶ç‚ºnull 
             if(n == 1) {
                 temp->next = NULL;
             }
@@ -44,7 +45,7 @@ public:
         return head;
     }
     
-//    ­pºâLlinked listªø«× 
+//    è¨ˆç®—Llinked listé•·åº¦ 
     int length(ListNode* head) {
         int count = 0;
         while(head) {
