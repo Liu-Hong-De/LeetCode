@@ -8,7 +8,7 @@ and parts occurring earlier should always have a size greater than or equal to p
 
 Return an array of the k parts. */
 
-
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Split Linked List in Parts.
 // Memory Usage: 8.8 MB, less than 91.53% of C++ online submissions for Split Linked List in Parts.
 
