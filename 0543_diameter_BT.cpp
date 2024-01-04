@@ -4,6 +4,7 @@ The diameter of a binary tree is the length of the longest path between any two 
 
 The length of a path between two nodes is represented by the number of edges between them. */
 
+// Difficulty: Easy
 // Runtime: 8 ms, faster than 81.33% of C++ online submissions for Diameter of Binary Tree.
 // Memory Usage: 20.2 MB, less than 64.86% of C++ online submissions for Diameter of Binary Tree.
 
