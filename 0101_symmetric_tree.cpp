@@ -1,5 +1,6 @@
 // Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Symmetric Tree.
 // Memory Usage: 16.3 MB, less than 91.68% of C++ online submissions for Symmetric Tree.
 
