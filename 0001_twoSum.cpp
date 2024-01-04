@@ -2,6 +2,7 @@
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.*/
 
+// Difficulty: Easy
 // Runtime: 4 ms, faster than 97.38% of C++ online submissions for Two Sum.
 // Memory Usage: 9 MB, less than 58.54% of C++ online submissions for Two Sum.
 
