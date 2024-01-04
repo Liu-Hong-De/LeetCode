@@ -1,5 +1,6 @@
 // Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Binary Tree Inorder Traversal.
 // Memory Usage: 8.2 MB, less than 85.29% of C++ online submissions for Binary Tree Inorder Traversal.
 
@@ -21,7 +22,7 @@ public:
         return ans;
     }
     
-//    inorder¡Gleft->middle->right 
+//    inorderÂ¡Gleft->middle->right 
     void subtree(TreeNode* root) {
         if(root != NULL) {
             subtree(root->left);
