@@ -3,7 +3,7 @@
 
 Note that after backspacing an empty text, the text will continue empty. */
 
-
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Backspace String Compare.
 // Memory Usage: 6 MB, less than 97.67% of C++ online submissions for Backspace String Compare.
 
