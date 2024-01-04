@@ -1,6 +1,7 @@
 /* Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest 
 to target. Return the sum of the three integers. You may assume that each input would have exactly one solution. */
 
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for 3Sum Closest.
 // Memory Usage: 9.9 MB, less than 6.57% of C++ online submissions for 3Sum Closest.
 
