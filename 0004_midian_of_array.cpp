@@ -1,17 +1,18 @@
 // Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 
+// Difficulty: Hard
 // Runtime: 16 ms, faster than 99.13% of C++ online submissions for Median of Two Sorted Arrays.
 // Memory Usage: 88.8 MB, less than 99.72% of C++ online submissions for Median of Two Sorted Arraysorted Arrays
 
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        int mid = (nums1.size() + nums2.size()) / 2;		// §PÂ_¤¤¶¡¦ì¸m 
-        bool flag = false;			//¤W¤@¨BÆJ²¾°Êªºvector¬°¦ó 
-        int i = 0, j = 0;			// ¦bvector¤¤²¾°Êªº«ü¼Ğ 
+        int mid = (nums1.size() + nums2.size()) / 2;		// åˆ¤æ–·ä¸­é–“ä½ç½® 
+        bool flag = false;			//ä¸Šä¸€æ­¥é©Ÿç§»å‹•çš„vectorç‚ºä½• 
+        int i = 0, j = 0;			// åœ¨vectorä¸­ç§»å‹•çš„æŒ‡æ¨™ 
         double ans = 0;
         
-//        ³B²z¨ä¤¤¤@vector¬°ªÅªº±¡ªp 
+//        è™•ç†å…¶ä¸­ä¸€vectorç‚ºç©ºçš„æƒ…æ³ 
         if(nums1.size() == 0) {
             if(nums2.size() % 2 == 0) {
                 ans = (double)(nums2[mid-1] + nums2[mid]) / 2;
@@ -31,7 +32,7 @@ public:
             return ans;
         }
         
-//        ¦bÁÙ¥¼¨ì¹F¤¤ÂI¥B¨âvector³£ÁÙ¦³¤¸¯À®É«ùÄò¹M¾ú 
+//        åœ¨é‚„æœªåˆ°é”ä¸­é»ä¸”å…©vectoréƒ½é‚„æœ‰å…ƒç´ æ™‚æŒçºŒéæ­· 
         while(i + j < mid && i < nums1.size() && j < nums2.size()) {
             if(nums1[i] <= nums2[j]) {
                 i++;
@@ -43,7 +44,7 @@ public:
             }
         }
         
-//        ­Y¦³¤@¤è¤¸¯À¥ı¥Î§¹¥BÁÙ¥¼¨ì¹F¤¤ÂI ¡A«h«ùÄò´M³X ³Ñ¾l¤¸¯Àª½¨ì²×ÂI 
+//        è‹¥æœ‰ä¸€æ–¹å…ƒç´ å…ˆç”¨å®Œä¸”é‚„æœªåˆ°é”ä¸­é» ï¼Œå‰‡æŒçºŒå°‹è¨ª å‰©é¤˜å…ƒç´ ç›´åˆ°çµ‚é» 
         while(i == nums1.size() && i+j < mid) {
             j++;
             flag = false;
@@ -53,7 +54,7 @@ public:
             flag = true;
         }
         
-//        §PÂ_¨â°}¦C©M¬O©_¼ÆÁÙ¬O°¸¼Æ 
+//        åˆ¤æ–·å…©é™£åˆ—å’Œæ˜¯å¥‡æ•¸é‚„æ˜¯å¶æ•¸ 
         if((nums1.size() + nums2.size()) % 2 == 0) {
             if(flag) {
                 if(i == nums1.size()) {
