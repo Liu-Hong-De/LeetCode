@@ -3,6 +3,7 @@ and j != k, and nums[i] + nums[j] + nums[k] == 0.
 
 Notice that the solution set must not contain duplicate triplets. */
 
+// Difficulty: Medium
 // Runtime: 64 ms, faster than 81.44% of C++ online submissions for 3Sum.
 // Memory Usage: 22.8 MB, less than 37.40% of C++ online submissions for 3Sum.
 
@@ -17,21 +18,21 @@ public:
         }
         sort(nums.begin(), nums.end());
         
-//        ©T©w¤@¼Æ¡A§ä¥t¥~¨â¼Æ©M¬°©T©w¼Æ*-1ªº²Õ¦X 
+//        å›ºå®šä¸€æ•¸ï¼Œæ‰¾å¦å¤–å…©æ•¸å’Œç‚ºå›ºå®šæ•¸*-1çš„çµ„åˆ 
         for(int i = 0; i < nums.size()-2; i++) {
             int j = i + 1;
             int k = nums.size() - 1;
             
-            if(nums[i] > 0) {		// ·í©T©w¼Æ¬°¥¿¼Æ®É¡A¥t¥~¨â¼Æ¥²¤ñ©T©w¼Æ¤j 
+            if(nums[i] > 0) {		// ç•¶å›ºå®šæ•¸ç‚ºæ­£æ•¸æ™‚ï¼Œå¦å¤–å…©æ•¸å¿…æ¯”å›ºå®šæ•¸å¤§ 
                 break;
             }
-            else if(i > 0 && nums[i] == nums[i-1]) {		// ­«½Æ¼Æ¦r¸õ¹L¥H§K­«½Æ³B²z 
+            else if(i > 0 && nums[i] == nums[i-1]) {		// é‡è¤‡æ•¸å­—è·³éä»¥å…é‡è¤‡è™•ç† 
                 continue;
             }
             
             while(j < k) {
                 int sum = nums[j] + nums[k];
-//                ¦V¤º³vº¥´M§ä¥i¯à²Õ¦X 
+//                å‘å…§é€æ¼¸å°‹æ‰¾å¯èƒ½çµ„åˆ 
                 if(sum < -1 * nums[i]) {
                     j++;
                 }
@@ -49,7 +50,7 @@ public:
                 }
             }
         }
-        ans.erase(unique(ans.begin(), ans.end()), ans.end());		// ¥h°£­«½Æ 
+        ans.erase(unique(ans.begin(), ans.end()), ans.end());		// å»é™¤é‡è¤‡ 
         return ans;
     }
 };
