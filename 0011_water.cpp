@@ -4,9 +4,10 @@ with the x-axis forms a container, such that the container contains the most wat
 
 Notice that you may not slant the container. */
 
+// Difficulty: Medium
 // Runtime: 80 ms, faster than 37.82% of C++ online submissions for Container With Most Water.
 // Memory Usage: 58.9 MB, less than 35.52% of C++ online submissions for Container With Most Water.
-// «Ý­×§ï 
+// å¾…ä¿®æ”¹ 
 
 class Solution {
 public:
@@ -16,7 +17,7 @@ public:
         
         while(i < j) {
             ans = max(ans, (j-i)*min(height[i], height[j]));
-//            ³vº¥©¹¤º§ä¥i¯à§ó¤jªº­È 
+//            é€æ¼¸å¾€å…§æ‰¾å¯èƒ½æ›´å¤§çš„å€¼ 
             if(height[i] < height[j]) {
                 i++;
             }
