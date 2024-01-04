@@ -1,5 +1,6 @@
 // Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
 
+// Difficulty: Medium
 // Runtime: 16 ms, faster than 82.46% of C++ online submissions for Top K Frequent Elements.
 // Memory Usage: 13.6 MB, less than 89.57% of C++ online submissions for Top K Frequent Elements.
 
