@@ -1,5 +1,6 @@
 /* Given the root of a binary tree, return the postorder traversal of its nodes' values. */
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Binary Tree Postorder Traversal.
 // Memory Usage: 8.3 MB, less than 85.64% of C++ online submissions for Binary Tree Postorder Traversal.
 
