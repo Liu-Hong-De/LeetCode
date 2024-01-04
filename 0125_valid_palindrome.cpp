@@ -1,5 +1,6 @@
 // Given a string s, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases. 
 
+// Difficulty: Easy
 // Runtime: 3 ms, faster than 95.51% of C++ online submissions for Valid Palindrome.
 // Memory Usage: 7.3 MB, less than 87.92% of C++ online submissions for Valid Palindrome.
 
