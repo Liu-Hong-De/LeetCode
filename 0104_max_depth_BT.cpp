@@ -2,6 +2,7 @@
 
 A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node. */
 
+// Difficulty: Easy
 // Runtime: 4 ms, faster than 92.21% of C++ online submissions for Maximum Depth of Binary Tree.
 // Memory Usage: 18.7 MB, less than 88.11% of C++ online submissions for Maximum
 
