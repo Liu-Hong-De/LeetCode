@@ -1,27 +1,28 @@
 // Given a string s, find the length of the longest substring without repeating characters.
- 
+
+// Difficulty: Medium
 // Runtime: 8 ms, faster than 89.09% of C++ online submissions for Longest Substring Without Repeating Characters.
 // Memory Usage: 8.2 MB, less than 73.19% of C++ online submissions for Longest Substring Without Repeating Characters.
 
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        unordered_map<char, int> umap;		// ¥Î¥HÀx¦s¨C¤@­Ó¦r¤¸³Ì«á¤@¦¸¥X²{ªº¦ì¸m 
+        unordered_map<char, int> umap;		// ç”¨ä»¥å„²å­˜æ¯ä¸€å€‹å­—å…ƒæœ€å¾Œä¸€æ¬¡å‡ºç¾çš„ä½ç½® 
         int ans = 0, temp = 0, front = 0;;
         
         for(int i = 0; i < s.length(); i++) {
             int pos = umap[s[i]];
 
-//			§PÂ_¦¹¦r¤¸¦b«e­±¬O§_¤w¥X²{¹L 
+//			åˆ¤æ–·æ­¤å­—å…ƒåœ¨å‰é¢æ˜¯å¦å·²å‡ºç¾é 
             if(pos != 0 && pos > front) {
                 temp = i - pos + 1;
-                front = pos;			// ¥Î¥H¬ö¿ı¤W¤@¦¸­«½Æ¥X²{ªº¦r¤¸ªº¦ì¸m(«e)¡A¥H´î¤Ö¹Bºâ¶q¡A¦b¦¹¦ì¸m«eªº¦ì¸m¤£»İ¦A°µ­pºâ 
+                front = pos;			// ç”¨ä»¥ç´€éŒ„ä¸Šä¸€æ¬¡é‡è¤‡å‡ºç¾çš„å­—å…ƒçš„ä½ç½®(å‰)ï¼Œä»¥æ¸›å°‘é‹ç®—é‡ï¼Œåœ¨æ­¤ä½ç½®å‰çš„ä½ç½®ä¸éœ€å†åšè¨ˆç®— 
             }
             else {
                 temp++;
             }
             
-//            §PÂ_¥Ø«e¦r¦êªø«×¬O§_¤j©óµª®× 
+//            åˆ¤æ–·ç›®å‰å­—ä¸²é•·åº¦æ˜¯å¦å¤§æ–¼ç­”æ¡ˆ 
             if(temp > ans) {
                 ans = temp;
             }
