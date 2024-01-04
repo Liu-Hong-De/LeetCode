@@ -2,7 +2,8 @@
 An input string is valid if:
 	1. Open brackets must be closed by the same type of brackets.
 	2. Open brackets must be closed in the correct order. */
-	
+
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Valid Parentheses.
 // Memory Usage: 6.3 MB, less than 46.58% of C++ online submissions for Valid Parentheses.
 
