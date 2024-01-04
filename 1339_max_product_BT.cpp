@@ -5,6 +5,7 @@ Return the maximum product of the sums of the two subtrees. Since the answer may
 
 Note that you need to maximize the answer before taking the mod and not after taking it. */
 
+// Difficulty: Medium
 // Runtime: 112 ms, faster than 84.82% of C++ online submissions for Maximum Product of Splitted Binary Tree.
 // Memory Usage: 77.2 MB, less than 98.39% of C++ online submissions for Maximum Product of Splitted Binary Tree.
 
