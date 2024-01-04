@@ -2,6 +2,7 @@
 
 Two binary trees are considered the same if they are structurally identical, and the nodes have the same value. */
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Same Tree.
 // Memory Usage: 10 MB, less than 76.89% of C++ online submissions for Same Tree.
 
