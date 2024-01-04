@@ -1,5 +1,6 @@
 // Given the head of a linked list, rotate the list to the right by k places.
 
+// Difficulty: Medium
 // Runtime: 4 ms, faster than 94.09% of C++ online submissions for Rotate List.
 // Memory Usage: 11.7 MB, less than 88.37% of C++ online submissions for Rotate List.
 
