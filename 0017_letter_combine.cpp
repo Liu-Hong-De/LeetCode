@@ -3,6 +3,7 @@ Return the answer in any order.
 
 A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters. */
 
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Letter Combinations of a Phone Number.
 // Memory Usage: 6.6 MB, less than 62.94% of C++ online submissions for Letter Combinations of a Phone Number
 
