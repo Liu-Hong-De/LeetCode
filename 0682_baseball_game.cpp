@@ -10,7 +10,7 @@ An integer x - Record a new score of x.
 "C" - Invalidate the previous score, removing it from the record. It is guaranteed there will always be a previous score.
 Return the sum of all the scores on the record. */
 
-
+// Difficulty: Easy
 // Runtime: 4 ms, faster than 71.34% of C++ online submissions for Baseball Game.
 // Memory Usage: 8.3 MB, less than 69.92% of C++ online submissions for Baseball Game.
 
