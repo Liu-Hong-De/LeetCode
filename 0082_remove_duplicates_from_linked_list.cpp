@@ -1,6 +1,7 @@
 /* Given the head of a sorted linked list, delete all nodes that have duplicate numbers, 
 leaving only distinct numbers from the original list. Return the linked list sorted as well. */
 
+// Difficulty: Medium
 // Runtime: 4 ms, faster than 94.36% of C++ online submissions for Remove Duplicates from Sorted List II.
 // Memory Usage: 11.2 MB, less than 20.14% of C++ online submissions for Remove Duplicates from Sorted List II.
 
