@@ -1,6 +1,7 @@
 /* You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself. */
 
+// Difficulty: Medium
 // Runtime: 20 ms, faster than 95.53% of C++ online submissions for Add Two Numbers.
 // Memory Usage: 70.6 MB, less than 95.99% of C++ online submissions for Add Two Numbers.
 
@@ -21,7 +22,7 @@ public:
         ListNode* front = l1;
         bool carry = false;
         
-//        ¬Û¹ïÀ³¦ì¸m¬Û¥[ 
+//        ç›¸å°æ‡‰ä½ç½®ç›¸åŠ  
         while(l1->next != 0 && l2->next != 0) {
             l1->val += l2->val;
             l1 = l1->next;
@@ -29,12 +30,12 @@ public:
         } 
         l1->val += l2->val;
         
-//        µL¬Û¹ïÀ³¦ì¸m¦X¨Ö 
+//        ç„¡ç›¸å°æ‡‰ä½ç½®åˆä½µ 
         if(l2->next != 0) {
             l1->next = l2->next;
         }
         
-//        ³B²z¶i¦ì 
+//        è™•ç†é€²ä½ 
         while(front != 0) {
             if(carry) {
                 front->val += 1;
