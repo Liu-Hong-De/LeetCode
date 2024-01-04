@@ -3,6 +3,7 @@ You are initially positioned at the array's first index, and each element in the
 
 Return true if you can reach the last index, or false otherwise. */
 
+// Difficulty: Medium
 // Runtime: 56 ms, faster than 82.88% of C++ online submissions for Jump Game.
 // Memory Usage: 48.3 MB, less than 49.19% of C++ online submissions for Jump Game.
 
