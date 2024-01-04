@@ -1,6 +1,7 @@
 /* An ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.
 Given an integer n, return true if n is an ugly number. */
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Ugly Number.
 // Memory Usage: 5.8 MB, less than 68.75% of C++ online submissions for Ugly Number
 
