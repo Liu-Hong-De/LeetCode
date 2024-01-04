@@ -7,7 +7,7 @@ Return a string of the words in reverse order concatenated by a single space.
 Note that s may contain leading or trailing spaces or multiple spaces between two words. 
 The returned string should only have a single space separating the words. Do not include any extra spaces. */ 
 
-
+// Difficulty: Medium
 // Runtime: 7 ms, faster than 46.61% of C++ online submissions for Reverse Words in a String.
 // Memory Usage: 20.8 MB, less than 25.81% of C++ online submissions for Reverse Words in a String.
 
