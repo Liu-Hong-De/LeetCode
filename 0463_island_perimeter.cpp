@@ -6,6 +6,7 @@ The grid is completely surrounded by water, and there is exactly one island (i.e
 The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. 
 One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island. */
 
+// Difficulty: Easy
 // Runtime: 127 ms, faster than 35.75% of C++ online submissions for Island Perimeter.
 // Memory Usage: 96.2 MB, less than 58.06% of C++ online submissions for Island Perimeter.
 
