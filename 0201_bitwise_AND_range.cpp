@@ -1,5 +1,6 @@
 // Given two integers left and right that represent the range [left, right], return the bitwise AND of all numbers in this range, inclusive.
 
+// Difficulty: Medium
 // Runtime: 8 ms, faster than 74.60% of C++ online submissions for Bitwise AND of Numbers Range.
 // Memory Usage: 6 MB, less than 30.76% of C++ online submissions for Bitwise AND of Numbers Range.
 
