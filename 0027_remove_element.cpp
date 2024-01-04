@@ -2,6 +2,7 @@
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 The order of elements can be changed. It doesn't matter what you leave beyond the new length. */
 
+// Difficulty: Easy
 // Runtime: 4 ms, faster than 52.59% of C++ online submissions for Remove Element.
 // Memory Usage: 8.6 MB, less than 92.99% of C++ online submissions for Remove Element.
 
@@ -17,7 +18,7 @@ public:
                 count++;
             }
         }
-//        §Q¥Î¨â­Ó«ü¾D¤À§O±qÀY§À¦V¤¤¶¡±½´y¡A¦bÀY§ä¨ìÃöÁä­È¸ò§Àªº«DÃöÁä­È°µ¥æ´«¡Aª½¨ì§Àªº«ü¼Ğµ¥©óÀYªº«ü¼Ğ¬°¤î 
+//        åˆ©ç”¨å…©å€‹æŒ‡é­åˆ†åˆ¥å¾é ­å°¾å‘ä¸­é–“æƒæï¼Œåœ¨é ­æ‰¾åˆ°é—œéµå€¼è·Ÿå°¾çš„éé—œéµå€¼åšäº¤æ›ï¼Œç›´åˆ°å°¾çš„æŒ‡æ¨™ç­‰æ–¼é ­çš„æŒ‡æ¨™ç‚ºæ­¢ 
         else {
             for(int i = 0; i < nums.size(); i++) {
                 if(nums[i] != val) {
