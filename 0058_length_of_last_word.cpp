@@ -1,6 +1,7 @@
 /* Given a string s consists of some words separated by spaces, return the length of the last word in the string. If the last word does not exist, return 0.
 A word is a maximal substring consisting of non-space characters only. */
 
+// Difficulty: Easy
 // Runtime: 4 ms, faster than 59.13% of C++ online submissions for Length of Last Word.
 // Memory Usage: 6.5 MB, less than 56.02% of C++ online submissions for Length of Last Word.
 
