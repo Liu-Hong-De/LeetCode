@@ -1,5 +1,6 @@
 // Given an integer n, return the number of trailing zeroes in n!.
 
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Factorial Trailing Zeroes.
 // Memory Usage: 5.7 MB, less than 95.78% of C++ online submissions for Factorial Trailing Zeroes.
 
