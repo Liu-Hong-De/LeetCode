@@ -5,6 +5,7 @@ We will use the integers 0, 1, and 2 to represent the color red, white, and blue
 
 You must solve this problem without using the library's sort function. */
 
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Sort Colors.
 // Memory Usage: 8.2 MB, less than 67.56% of C++ online submissions for Sort Colors.
 
