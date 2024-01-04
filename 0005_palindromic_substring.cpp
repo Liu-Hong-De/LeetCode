@@ -1,18 +1,19 @@
 // Given a string s, return the longest palindromic substring in s.
 
+// Difficulty: Medium
 // Runtime: 176 ms, faster than 42.31% of C++ online submissions for Longest Palindromic Substring.
 // Memory Usage: 6.9 MB, less than 95.26% of C++ online submissions for Longest Palindromic Substring.
 
 class Solution {
 public:
     string longestPalindrome(string s) {
-        int first = 0, length = 0;			// ¬ö¿ı¦^¤å²£¥Íªº¦ì¸m©Mªø«× 
+        int first = 0, length = 0;			// ç´€éŒ„å›æ–‡ç”¢ç”Ÿçš„ä½ç½®å’Œé•·åº¦ 
         bool flag = false;
         string ans = "";
         
         for(int i = 0; i < s.length(); i++) {
             for(int j = s.length()-1; j > i; j--) {
-//            	ÀY§À¬Û¦P®É³vº¥©¹¤º²¾°Ê§PÂ_¬O§_¬O¦^¤å 
+//            	é ­å°¾ç›¸åŒæ™‚é€æ¼¸å¾€å…§ç§»å‹•åˆ¤æ–·æ˜¯å¦æ˜¯å›æ–‡ 
                 if(s[i] == s[j]) {
                     first = i;
                     length = j-i+1;
@@ -28,7 +29,7 @@ public:
                             j--;
                         }
                     }
-//                    «D¦^¤å®ÉÁÙ­ì¦^­ì¥»¦ì¸mÄ~Äò´M§ä 
+//                    éå›æ–‡æ™‚é‚„åŸå›åŸæœ¬ä½ç½®ç¹¼çºŒå°‹æ‰¾ 
                     if(!flag) {
                         i = first;
                         j = first + length - 1;
