@@ -3,7 +3,8 @@
    A P L S I I G
    Y   I   R
    And then read line by line: "PAHNAPLSIIGYIR" */
-   
+
+// Difficulty: Medium
 // Runtime: 8 ms, faster than 89.14% of C++ online submissions for ZigZag Conversion.
 // Memory Usage: 8.2 MB, less than 88.98% of C++ online submissions for ZigZag Conversion.
 
@@ -14,20 +15,20 @@ public:
         int i = 0;
         string ans = "";
         
-//        ª½½u±¡ªp 
+//        ç›´ç·šæƒ…æ³ 
         if(numRows == 1) {
             return s;
         }
         
         while(ans.length() < s.length()) {
-//        	ÀY§À³W«ß¬°2(n-1) 
+//        	é ­å°¾è¦å¾‹ç‚º2(n-1) 
             if(row == 0 || row == numRows-1) {
                 while(i < s.length()) {
                     ans += s[i];
                     i += 2 * (numRows - 1);
                 }
             }
-//            ³W«ß¬° 2*(n-1)-¦C¼Æ*2 ©M 2*¦C¼Æ 
+//            è¦å¾‹ç‚º 2*(n-1)-åˆ—æ•¸*2 å’Œ 2*åˆ—æ•¸ 
             else {
                 while(i < s.length()) {
                     ans += s[i];
