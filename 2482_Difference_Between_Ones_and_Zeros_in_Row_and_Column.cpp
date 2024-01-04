@@ -9,6 +9,7 @@ Let the number of zeros in the jth column be zerosColj.
 diff[i][j] = onesRowi + onesColj - zerosRowi - zerosColj
 Return the difference matrix diff.*/
 
+// Difficulty: Medium
 // Runtime: 183 ms, Beats 81.55% of users with C++
 // Memory: 116.70 MB, Beats 76.99% of users with C++
 
