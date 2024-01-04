@@ -6,6 +6,7 @@ Repeat the process until the number equals 1 (where it will stay), or it loops e
 Those numbers for which this process ends in 1 are happy.
 Return true if n is a happy number, and false if not. */
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Happy Number.
 // Memory Usage: 5.7 MB, less than 95.40% of C++ online submissions for Happy Number.
 
