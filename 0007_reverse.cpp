@@ -2,6 +2,7 @@
 If reversing x causes the value to go outside the signed 32-bit integer range [-2^31, 2^31 - 1], then return 0.
 Assume the environment does not allow you to store 64-bit integers (signed or unsigned). */
 
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Reverse Integer.
 // Memory Usage: 6 MB, less than 64.30% of C++ online submissions for Reverse Integer.
 
