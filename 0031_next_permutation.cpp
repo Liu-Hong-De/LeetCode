@@ -4,6 +4,7 @@ If such an arrangement is not possible, it must rearrange it as the lowest possi
 
 The replacement must be in place and use only constant extra memory. */
 
+// Difficulty: Medium
 // Runtime: 3 ms, faster than 81.88% of C++ online submissions for Next Permutation.
 // Memory Usage: 12 MB, less than 93.55% of C++ online submissions for Next Permutation.
 
