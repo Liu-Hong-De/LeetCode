@@ -5,7 +5,7 @@ to produce a multilevel data structure, as shown in the example below.
 
 Flatten the list so that all the nodes appear in a single-level, doubly linked list. You are given the head of the first level of the list. */
 
-
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Flatten a Multilevel Doubly Linked List.
 // Memory Usage: 7.4 MB, less than 62.64% of C++ online submissions for Flatten a Multilevel Doubly Linked List.
 
