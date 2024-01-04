@@ -14,6 +14,7 @@ Return the winner of the game if it exists (A or B), in case the game ends in a 
 
 You can assume that moves is valid (It follows the rules of Tic-Tac-Toe), the grid is initially empty and A will play first. */
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Find Winner on a Tic Tac Toe Game.
 // Memory Usage: 8.3 MB, less than 57.00% of C++ online submissions for Find Winner on a Tic Tac Toe Game.
 
