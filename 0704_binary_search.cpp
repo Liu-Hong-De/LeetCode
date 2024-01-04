@@ -3,6 +3,7 @@ If target exists, then return its index. Otherwise, return -1.
 
 You must write an algorithm with O(log n) runtime complexity.*/
 
+// Difficulty: Easy
 // Runtime: 32 ms, faster than 87.95% of C++ online submissions for Binary Search.
 // Memory Usage: 27.5 MB, less than 63.06% of C++ online submissions for Binary Search.
 
