@@ -1,6 +1,7 @@
 /* Write a function to find the longest common prefix string amongst an array of strings.
 If there is no common prefix, return an empty string "".  */
 
+// Difficulty: Easy
 // Runtime: 4 ms, faster than 84.19% of C++ online submissions for Longest Common Prefix.
 // Memory Usage: 9.2 MB, less than 81.02% of C++ online submissions for Longest Common Prefix.
 
