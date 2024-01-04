@@ -20,6 +20,7 @@ X can be placed before L (50) and C (100) to make 40 and 90.
 C can be placed before D (500) and M (1000) to make 400 and 900.
 Given an integer, convert it to a roman numeral. */
 
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Integer to Roman.
 // Memory Usage: 5.9 MB, less than 82.68% of C++ online submissions for Integer to Roman.
 
@@ -27,7 +28,7 @@ class Solution {
 public:
     string intToRoman(int num) {
         string ans = "";
-        int count = 0;		// ¦ì¼Æ 
+        int count = 0;		// Â¦Ã¬Â¼Ã† 
         
         while(num > 0) {
             int temp = num % 10;
