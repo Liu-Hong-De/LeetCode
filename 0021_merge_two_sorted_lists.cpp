@@ -1,5 +1,6 @@
 /* Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists. */ 
 
+// Difficulty: Easy
 // Runtime: 8 ms, faster than 82.10% of C++ online submissions for Merge Two Sorted Lists.
 // Memory Usage: 14.7 MB, less than 97.74% of C++ online submissions for Merge Two Sorted Lists.
 
