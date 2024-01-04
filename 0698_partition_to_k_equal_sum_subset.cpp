@@ -1,13 +1,14 @@
 /* Given an integer array nums and an integer k, 
 return true if it is possible to divide this array into k non-empty subsets whose sums are all equal. */
 
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Partition to K Equal Sum Subsets.
 // Memory Usage: 9.3 MB, less than 35.23% of C++ online submissions for Partition to K Equal Sum Subsets.
 
 class Solution {
 public:
     bool canPartitionKSubsets(vector<int>& nums, int k) {
-//         ­pºâ­ÈªºÁ`©M¡A§PÂ_¬O§_¥i¥H¤À¦¨k¥÷
+//         è¨ˆç®—å€¼çš„ç¸½å’Œï¼Œåˆ¤æ–·æ˜¯å¦å¯ä»¥åˆ†æˆkä»½
         for(int i = 0; i < nums.size(); i++) {
             sum += nums[i];
         }
@@ -15,22 +16,22 @@ public:
             return false;
         }
         
-        int need = sum / k;     // ¨C­Ó¤l¶°©Ò»İÁ`©M
+        int need = sum / k;     // æ¯å€‹å­é›†æ‰€éœ€ç¸½å’Œ
         vector<int> sub(k, 0);
         sort(nums.begin(), nums.end());
-//         ­Y¶°¦X¤¤³Ì¤j­È¤j©ó©Ò»İÁ`©M¡Aªí¥Ü¥²¤£¥i¯à±o¥Xµª®×
+//         è‹¥é›†åˆä¸­æœ€å¤§å€¼å¤§æ–¼æ‰€éœ€ç¸½å’Œï¼Œè¡¨ç¤ºå¿…ä¸å¯èƒ½å¾—å‡ºç­”æ¡ˆ
         if(need < nums[nums.size()-1]) {
             return false;
         }
         
         for(int i = 0; i < k; i++) {
             vector<int> pos;
-//             ´M§ä¨º¨Ç¤¸¯ÀÁ`©M·|¬Oneed
+//             å°‹æ‰¾é‚£äº›å…ƒç´ ç¸½å’Œæœƒæ˜¯need
             pos = subset(nums, need, nums.size()-1, pos);
             if(!flag) {
                 return false;
             }
-//             §R±¼¤w¸g¦¨¥ßªº²Õ¦X¡AÁ×§K­«½Æ­pºâ
+//             åˆªæ‰å·²ç¶“æˆç«‹çš„çµ„åˆï¼Œé¿å…é‡è¤‡è¨ˆç®—
             for(int j = pos.size()-1; j >= 0; j--) {
                 nums.erase(nums.begin()+pos[j]);
             }
@@ -41,7 +42,7 @@ public:
     vector<int> subset(vector<int>& nums, int need, int end, vector<int>& pos) {
         flag = false;
         for(int i = end; i >= 0; i--) {
-//             »¼°j´M§ä¥i¯àªº¸Ñ
+//             éè¿´å°‹æ‰¾å¯èƒ½çš„è§£
             if(need > nums[i]) {
                 pos = subset(nums, need-nums[i], i-1, pos);
                 if(flag) {
@@ -49,7 +50,7 @@ public:
                     break;
                 }
             }
-//             ¦¨¥\§ä¨ì¤l¶°
+//             æˆåŠŸæ‰¾åˆ°å­é›†
             else if(need == nums[i]) {
                 pos.push_back(i);
                 flag = true;
