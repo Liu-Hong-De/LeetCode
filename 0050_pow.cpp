@@ -1,5 +1,6 @@
 // Implement pow(x, n), which calculates x raised to the power n (i.e., x^n).
 
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Pow(x, n).
 // Memory Usage: 5.9 MB, less than 81.52% of C++ online submissions for Pow(x, n).
 
