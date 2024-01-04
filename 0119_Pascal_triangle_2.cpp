@@ -1,5 +1,6 @@
 // Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle
 
+// Difficulty: Easy
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for Pascal's Triangle II.
 // Memory Usage: 6.2 MB, less than 92.09% of C++ online submissions for Pascal's Triangle II.
 
