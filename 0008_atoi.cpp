@@ -7,7 +7,8 @@ The algorithm for myAtoi(string s) is as follows:
 	4. Convert these digits into an integer (i.e. "123" -> 123, "0032" -> 32). If no digits were read, then the integer is 0. Change the sign as necessary (from step 2).
 	5. If the integer is out of the 32-bit signed integer range [-231, 231 - 1], then clamp the integer so that it remains in the range. Specifically, integers less than -231 should be clamped to -231, and integers greater than 231 - 1 should be clamped to 231 - 1.
 	6. Return the integer as the final result. */
-	
+
+// Difficulty: Medium
 // Runtime: 0 ms, faster than 100.00% of C++ online submissions for String to Integer (atoi).
 // Memory Usage: 6.9 MB, less than 66.22% of C++ online submissions for String to Integer (atoi)
 
